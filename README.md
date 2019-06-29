@@ -3,7 +3,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## About
 
 This is a simple react app that was inspired by [BradTraversy](https://github.com/bradtraversy)
-View the live app here
+View the live app [here](http://project.trwebdev.com)
 
 ## Available Scripts
 
