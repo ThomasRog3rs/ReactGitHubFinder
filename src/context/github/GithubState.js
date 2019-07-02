@@ -11,3 +11,29 @@ import {
   SET_ALERT,
   REMOVE_ALERT
 } from '../types';
+import githubContext from './githubContext';
+
+const GithubState = props => {
+  const initalState = {
+    users: [],
+    user: {},
+    repos: [],
+    loading: false
+  };
+
+  const [state, dispatch] = useReducer(githubReducer, initalState);
+
+  //Search User
+
+  //Get User
+
+  //Get Repos
+
+  //Clear Users
+
+  //Set Loading
+
+  return <gitHubContext.Provider />;
+};
+
+export default GithubState;
